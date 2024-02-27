@@ -1,0 +1,19 @@
+.slideUp{
+  margin-top: -384px;
+  display: none;
+  transition: margin 5s ease;
+  -webkit-transition: all 5s ease;
+  transition-behavior: linear;
+  transition-duration: 5s;
+  transition-delay: 200ms;
+}
+
+.slideDown{
+  /* margin-top: -384px; */
+  margin-bottom: -384px;
+  transition: all 5s ease;
+  -webkit-transition: all 5s ease;
+  transition-duration: 5ms;
+  transition-behavior: linear;
+  transition-delay: 200ms;
+}
